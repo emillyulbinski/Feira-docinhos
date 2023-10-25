@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vendas de Doces</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Loja de Doces</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#doces">Doces</a></li>
+            <li><a href="#pagamento">Pagamento</a></li>
+        </ul>
+    </nav>
+
+    <section id="doces">
+        <h2>Nossos Doces</h2>
+        <div class="produto">
+            <img src="candy1.jpg" alt="Doce de Morango">
+            <h3>Doce de Morango</h3>
+            <p>Um doce delicioso feito com morangos frescos.</p>
+            <p class="preco">Preço: R$ 2,50</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+        
+        <div class="produto">
+            <img src="candy2.jpg" alt="Doce de Chocolate">
+            <h3>Doce de Chocolate</h3>
+            <p>Um doce de chocolate incrivelmente saboroso.</p>
+            <p class="preco">Preço: R$ 3,00</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+    </section>
+
+    <section id="pagamento">
+        <h2>Pagamento</h2>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Vendas de Doces</p>
+    </footer>
+
+    <script>
+        function comprar() {
+            alert("Obrigado por sua compra! Escaneie o código QR para efetuar o pagamento.");
+        }
+    </script>
+</body>
+</html>

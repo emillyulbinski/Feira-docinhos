@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vendas de Doces</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Twins Sweets</h1>
+    </header>
+    
+   
+
+    <section id="produtos">
+        <h2>Cardápio</h2>
+        <div class="alinhamento">
+            <div class="produto">
+                <img src="toddynho.jpg" alt="Achocolatado">
+                <h3>Achocolatado</h3>
+                <p>Uma deliciosa bebida com sabor de infância.</p>
+                <p class="preco">Preço: R$ 2,00</p>
+                <button onclick="comprar()">Comprar</button>
+            </div>
+            
+            <div class="produto">
+                <img src="bolo.jpg" alt="Bolo de chocolate">
+                <h3>Bolo de Chocolate</h3>
+                <p>Um bolo de chocolate fofinho e saboroso.</p>
+                <p class="preco">Preço: R$ 3,00</p>
+                <button onclick="comprar()">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="leiteninho.jpeg" alt="Doce de leite ninho">
+                <h3>Doce de leite ninho</h3>
+                <p>Um doce de dar água na boca.</p>
+                <p class="preco">Preço: R$ 2,00</p>
+                <button onclick="comprar()">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="coca.jpg" alt="Refrigerante">
+                <h3>Refrigerante</h3>
+                <p>Uma bebida refrescante para acompanhar seus doces.</p>
+                <p class="preco">Preço: R$ 2,00</p>
+                <button onclick="comprar()">Comprar</button>
+            </div>
+        </div>
+       
+
+    </section>
+
+    <section id="pagamento">
+        <h2>Pagamento</h2>
+        <p>Para fazer o pagamento, escaneie o código QR abaixo:</p>
+        <img src="qrcode.png" class="qrcode">
+    </section>
+    
+    <footer class="fixedfooter"> 
+        <p>&copy; 2023 Twins Sweets</p>
+     </footer>
+
+    <script>
+        function comprar() {
+            alert("Obrigado por sua compra! Escaneie o código QR para efetuar o pagamento.");
+        }
+    </script>
+</body>
+</html>
